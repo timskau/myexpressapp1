@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
   //res.send('Hello world');
   //res.sendFile(path + "helloview.html");
 
-  res.render('hello', { title: 'Hello pugg', welc: 'This is the welcome' });
+  res.render('hello', { title: 'Hello pugg', welc: 'This is the welcome page' });
 
 });
 
